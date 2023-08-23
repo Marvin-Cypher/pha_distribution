@@ -2,7 +2,7 @@
 
 This project visualizes the PHA (Phala Network's token) distribution over time, following a specific halving schedule as part of the Gemeni Tokenomics for compute reward including both Phala and Khala tokens.
 
-!<img width="1221" alt="截屏2023-08-23 23 53 38" src="https://github.com/Marvin-Cypher/pha_distribution/assets/57211675/3fa465a3-a807-45db-83a7-27a4966c374e">
+<img width="1221" alt="截屏2023-08-23 23 53 38" src="https://github.com/Marvin-Cypher/pha_distribution/assets/57211675/3fa465a3-a807-45db-83a7-27a4966c374e">
 
 ## Features
 
