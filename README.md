@@ -25,7 +25,21 @@ This project visualizes the PHA (Phala Network's token) distribution over time, 
 
 ## How It Works
 
-The graph models the token distribution of PHA over a ten-year period. Every 180 days, the daily rewards decrease, representing a "halving" in the context of blockchain token distribution. The rewards and days are computed and then plotted using D3.js to provide a visual representation.
+The graph models the token distribution of PHA over a ten-year period. 
+Every 180 days, the daily rewards decrease, representing a "halving" in the context of blockchain token distribution: https://docs.phala.network/compute-providers/basic-info/worker-rewards
+
+|                    | Phala / Khala    |
+| ------------------ | ---------------- |
+| Relaychain         | Polkadot/ Kusama |
+| Budget for Mining  | 700 mln          |
+| Halving Period     | 180 days         |
+| Halving Discount   | 25%              |
+| Treasure Share     | 20%              |
+| First Month Reward | 21.6 mln         |
+
+The rewards and days are computed and then plotted using D3.js to provide a visual representation.
+
+
 
 ## Contribution
 
