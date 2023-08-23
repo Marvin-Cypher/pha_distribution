@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px;
+}
+
+.line {
+    fill: #CDFA50;
+    stroke: none;
+}
+
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #aaa; /* Gray color for axis */
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    fill: #777; /* Slightly dark text color */
+}
+
+.tooltip {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font-size: 13px;
+    background-color: #7F52FA; /* Updated color for the tooltip background */
+    border: 1px solid #F2EDFE; /* Lighter color for the border */
+    border-radius: 4px;
+    pointer-events: none;
+    color: #F2EDFE; /* Updated color for the tooltip text */
+}
+
+
+
+svg {
+    background-color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+#chart {
+    height: 100%;
+}
+
+svg text {
+    font-family: 'Montserrat', sans-serif;
+    fill: white;  /* Default color for SVG text elements */
+}
+
+.title-text {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1.056px;
+}
+
+.subtitle-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+    fill: #A4C840; /* Adding color for the subtitle */
+}
+
+
+
+svg path, svg line {
+    fill: none;
+}
+
+svg {
+    overflow: visible;
+}
+
